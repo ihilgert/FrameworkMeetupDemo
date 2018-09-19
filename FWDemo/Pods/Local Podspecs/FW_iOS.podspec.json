@@ -1,0 +1,27 @@
+{
+  "name": "FW_iOS",
+  "version": "1.0.0",
+  "summary": "Framework Sample for iOS.",
+  "description": "Framework Sample for iOS.",
+  "homepage": "https://accedo.tv",
+  "license": "Copyright © 2018 Accedo Broadband Inc. All rights reserved.",
+  "authors": "Accedo Broadband Inc.",
+  "requires_arc": true,
+  "platforms": {
+    "tvos": "10.0",
+    "ios": "10.0"
+  },
+  "ios": {
+    "preserve_paths": "Product/Universal/FW_iOS.framework",
+    "public_header_files": "Product/Universal/FW_iOS.framework/Headers/*.h",
+    "vendored_frameworks": "Product/Universal/FW_iOS.framework"
+  },
+  "tvos": {
+    "preserve_paths": "Product/Universal/FW_tvOS.framework",
+    "public_header_files": "Product/Universal/FW_tvOS.framework/Headers/*.h",
+    "vendored_frameworks": "Product/Universal/FW_tvOS.framework"
+  },
+  "source": {
+    "path": "."
+  }
+}

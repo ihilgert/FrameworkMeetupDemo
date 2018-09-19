@@ -1,0 +1,11 @@
+framework module FW_iOS {
+  umbrella header "FW_iOS.h"
+
+  export *
+  module * { export * }
+}
+
+module FW_iOS.Swift {
+    header "FW_iOS-Swift.h"
+    requires objc
+}
